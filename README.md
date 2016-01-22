@@ -21,7 +21,7 @@ Check out the test folder for a sample use case. Below is the render times with 
 
 [Documentation: Using loaders](http://webpack.github.io/docs/using-loaders.html)
 
-Use the sizes param of the resize-image-loader to set all the desired widths. The loader creates the various sized images and return the proper formated result for the `<img srcset>` property (including any file name changes for long term caching). This loader need to be set in the javascript source, not the webpack config file.
+Use the sizes param of the resize-image-loader to set all the desired widths. The loader creates the various sized images and return the proper formated result for the `<img srcset>` property (including any file name changes for long term caching). This loader needs to be set in the javascript source, not the webpack config file.
 
 ``` javascript
 var responsive = require('resize-image?sizes[]=200w,sizes[]=900w!./myImage.jpg');
